@@ -1,0 +1,135 @@
+/* common codes */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* body starts */
+
+body{
+  background: #ddd;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+/* container starts */
+
+.container{
+  background-color: #d1ccc0;
+  max-width:1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* header section starts */
+
+.header-section{
+
+}
+
+.profile-image{
+  width: 100px;
+  border: 3px solid #dff9fb;
+  border-radius: 50%;
+  float: left;
+  transition: 0.3s;
+}
+.profile-image:hover{
+  width: 180px;
+  
+}
+
+.header-bio{
+  float: left;
+  padding: 30px;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:#40407a;
+
+}
+
+.header-contacts{
+  float: right;
+  padding: 30px;
+}
+
+.header-contacts a{
+  text-decoration: none;
+  color: #40407a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header-contacts a:hover{
+  color: #34ace0;
+  font-size: 18px;
+
+}
+
+/* clearing div */
+.div-clear{
+  clear: both;
+}
+
+hr{
+  border: 3px solid #000;
+  border-bottom: none;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.left-content{
+  width: 40%;
+  float: left;
+}
+
+.right-content{
+  width: 60%;
+  float: left;
+}
+
+/* common hr */
+.common-hr{
+  width: 100%;
+  border: 2px solid #000;
+  border-bottom: none;
+  margin: 20px auto;
+}
+
+ul li{
+  margin-left: 18px;
+}
+
+.left-edu-template{
+  float: left;
+  width:45%;
+
+}
+
+.right-edu-template{
+  float: right;
+  width: 45%;
+
+}
+
+.bottom-container{
+  background-color: #40407a;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.bottom-container a{
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+
+}
+
+.bottom-container p{
+  color: #fff;
+  margin-top: 20px;
+
+}
